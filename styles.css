@@ -5,9 +5,9 @@ text-primary 1C7C54
 text-secondary 35C68A */
 
 h1, h2, h3 {
-    color: #1C7C54;
+    color: var(--text-primary);
 }
 
 p {
-    color: #35C68A;
+    color: var(--text-secondary);
 }

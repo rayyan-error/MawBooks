@@ -1,16 +1,21 @@
+/* header AB8E80
+button 725E54
+body ECE2D0
+text-primary 1C7C54
+text-secondary 35C68A */
+
+:root {
+    --text-primary: #652A03;
+    --text-secondary: #352315;
+}
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
+    margin: 0;
+    background-color: #ECE2D0;
 }
 
 footer {
@@ -20,4 +25,17 @@ footer {
     justify-content: space-between;
 
     padding: 10px;
+
+    background-color: #AB8E80;
+}
+
+.footer-left {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.footer-right {
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
 }
