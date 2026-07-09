@@ -15,3 +15,8 @@ h1, h2, h3 {
 p {
     color: #35C68A;
 }
+
+header {
+    position: sticky;
+    padding: 1rem;
+}
