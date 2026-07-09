@@ -4,19 +4,10 @@ body ECE2D0
 text-primary 1C7C54
 text-secondary 35C68A */
 
-* {
-    box-sizing: border-box;
-}
-
 h1, h2, h3 {
     color: #1C7C54;
 }
 
 p {
     color: #35C68A;
-}
-
-header {
-    position: sticky;
-    padding: 1rem;
 }
