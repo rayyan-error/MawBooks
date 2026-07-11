@@ -16,7 +16,7 @@
                     <h1>MawBooks</h1>
                 </div>
                 <div class="nav-right">
-                    <button class="nobg-button">Home</button>
+                    <button class="nobg-button" id="wow">Home</button>
                     <button class="nobg-button">Genre</button>
                     <button class="nobg-button">Random</button>
                     <button class="bg-button">Login</button>
@@ -37,5 +37,16 @@
                 <p style="color: #F6F3EF;">&copy; Copyright 2026 MawBooks. All Rights Reserved.</p>
             </div>
         </footer>
+
+        <script>
+            const button = document.getElementById("wow")
+
+            button.addEventListener("click", textChange)
+
+            function textChange() {
+                document.getElementById("wow").innerHTML = "MOTA";
+            }
+
+        </script>
     </body>
 </html>
