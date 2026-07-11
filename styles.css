@@ -1,13 +1,21 @@
-/* header AB8E80
-button 725E54
-body ECE2D0
-text-primary 1C7C54
-text-secondary 35C68A */
-
 h1, h2, h3 {
     color: var(--text-primary);
 }
 
 p {
     color: var(--text-secondary);
+}
+
+.bg-button {
+    background: var(--accent);
+    padding: 10px 20px;
+
+    font-weight: 600;
+}
+
+.nobg-button {
+    background: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+
+    font-weight: 600;
 }
