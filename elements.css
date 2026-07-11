@@ -48,7 +48,7 @@ nav {
 .nav-left {
     display: flex;
     gap: 0.75rem;
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.75rem;
 }
 
 .nav-left img {
@@ -69,6 +69,38 @@ nav {
 body {
     margin: 0;
     background-color: var(--bg);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: 0;
+}
+
+.hero-left {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+}
+
+.hero-left h1 {
+    font-size: 100px;
+    font-weight: 1000;
+    margin: 0;
+}
+
+.hero-button {
+    align-self: flex-end;
+    margin: 0;
+}
+
+.hero-right {
+    padding-right: 2rem;
+    padding-top: 2rem;
 }
 
 footer {
