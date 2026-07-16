@@ -1,0 +1,72 @@
+===================================================
+MAWBOOKS - FINAL TECH STACK
+===================================================
+
+FRONTEND
+--------
+- React               : Pages, components, routing, rendering
+- React Router         : Navigation between Browse, Book Reader, Dashboard, Login
+- HTML5                : Page structure (rendered via JSX)
+- CSS3                 : Styling
+- JavaScript (ES6+)    : Powers React + fetch() calls to backend
+
+BACKEND
+-------
+- PHP 8                : Plain PHP, no framework. Exposed as JSON API endpoints
+                         (e.g. api/login.php, api/upload.php, api/books.php)
+- Apache               : Web server. Serves the PHP API and, in production,
+                         the built React files
+- PHP Sessions         : Handles login state via cookies
+                         (React fetch calls use credentials: 'include')
+
+DATABASE
+--------
+- MySQL                : Stores users, book metadata, donation logs
+- PDO                  : Used in PHP to query MySQL with prepared statements
+                         (no ORM needed)
+
+FILE STORAGE
+------------
+- Shared Hosting Server Filesystem
+  - PDFs saved using move_uploaded_file()
+  - File path stored in MySQL (not the file itself)
+  - (Replaces earlier plan of Cloudflare R2 / S3-compatible storage)
+
+USER ROLES / PERMISSIONS
+-------------------------
+- Only 2 real roles enforced server-side: "user" and "admin"
+- "Reader" vs "Creator" is NOT a real permission - it's a frontend-only
+  toggle/mode. Any logged-in user can upload books.
+- Admin role required for moderation endpoints (checked server-side every time)
+
+DEVELOPMENT TOOLS
+------------------
+- Visual Studio Code    : Code editor
+- Git & GitHub          : Version control
+- XAMPP                 : Local dev environment (Apache + MySQL + PHP + phpMyAdmin)
+- Chrome DevTools       : Debugging JS, network requests, cookies/sessions
+
+REMOVED / NOT USED
+--------------------
+- Cloudflare R2 (object storage)
+- S3-Compatible API
+- Composer
+- aws-sdk-php
+- Any PHP framework (Laravel, Symfony, etc.)
+- Any JS state management library (Redux, Zustand, etc.) - React Context is enough
+- TypeScript (not required)
+- Next.js (not needed - no server-side rendering requirement)
+
+CORE FEATURES (8 TOTAL)
+-------------------------
+1. User Authentication
+2. Book Management
+3. File Storage Management (server filesystem)
+4. User Dashboard (merged reader + creator view)
+5. Reader Experience (in-browser PDF viewing)
+6. UPI-Based Donations (no payment gateway; UPI ID/QR code display,
+   optional self-reported transaction log in MySQL)
+7. AI Book Review (stubbed for later)
+8. Admin Panel
+
+===================================================
