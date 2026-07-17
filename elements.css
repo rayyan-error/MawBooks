@@ -103,6 +103,18 @@ body {
     padding-top: 2rem;
 }
 
+.forrers {
+    margin: 0 10% auto;
+    background-color: #decfbb;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.for-readers, .for-writers {
+    padding: 20px 40px;
+}
+
 footer {
     width: 100%;
 

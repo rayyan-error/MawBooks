@@ -35,3 +35,7 @@ hr {
   border: none;
   margin: 0 auto;
 }
+
+.info {
+    font-size: large;
+}
