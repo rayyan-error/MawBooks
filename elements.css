@@ -79,6 +79,12 @@ body {
     margin: 0;
 }
 
+.hero-left,
+.hero-right {
+    flex: 1;
+    min-width: 0;
+}
+
 .hero-left {
     padding: 50px;
     display: flex;
@@ -88,7 +94,7 @@ body {
 }
 
 .hero-left h1 {
-    font-size: 100px;
+    font-size: clamp(3.5rem, 8vw, 6.5rem);
     font-weight: 1000;
     margin: 0;
 }
@@ -101,6 +107,11 @@ body {
 .hero-right {
     padding-right: 2rem;
     padding-top: 2rem;
+}
+
+.hero-right img {
+    width: min(600px, 100%);
+    height: auto;
 }
 
 .forrers {

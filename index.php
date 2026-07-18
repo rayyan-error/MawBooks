@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="hero-right">
-                    <img src="assets/image.png" height= 600px width= 600px>
+                    <img src="assets/image.png">
                 </div>
             </section>
 
