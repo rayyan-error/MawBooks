@@ -1,9 +1,9 @@
 h1, h2, h3 {
-    color: var(--text-primary);
+    color: var(--heading);
 }
 
 p {
-    color: var(--text-secondary);
+    color: var(--text);
 }
 
 .bg-button {

@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MawBooks | Publish Your Own E-Books</title>
         <link rel="icon" type="image/svg" href="assets/favicon.svg">
-        <link rel="stylesheet" href="elements.css?v=2">
-        <link rel="stylesheet" href="styles.css?v=2">
+        <link rel="stylesheet" href="elements.css?v=<?php echo filemtime('elements.css'); ?>">
+        <link rel="stylesheet" href="styles.css?v=<?php echo filemtime('styles.css'); ?>">
     </head>
     <body>
         <header>
