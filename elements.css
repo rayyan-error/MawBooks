@@ -79,18 +79,14 @@ body {
     margin: 0;
 }
 
-.hero-left,
-.hero-right {
-    flex: 1;
-    min-width: 0;
-}
-
 .hero-left {
     padding: 50px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin: 0;
+    flex: 1.2;
+    line-height: 1.5;
 }
 
 .hero-left h1 {
@@ -107,6 +103,7 @@ body {
 .hero-right {
     padding-right: 2rem;
     padding-top: 2rem;
+    flex: 1;
 }
 
 .hero-right img {
