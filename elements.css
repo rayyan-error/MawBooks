@@ -10,7 +10,7 @@
     --header: #2F4858;
 
     /* Background color of the footer */
-    --footer: #2F4858;
+    --footer: #4b6e83;
 
     /* Color of all headings (H1, H2, H3...) */
     --heading: #6C5F73;
@@ -231,4 +231,9 @@ footer {
     align-items: center;
     display: flex;
     padding-right: 10px;
+}
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
 }

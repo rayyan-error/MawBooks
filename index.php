@@ -37,7 +37,7 @@
                 </div>
             </section>
 
-            <hr><br><br><br>
+            <hr> <br><br><br>
 
             <section class="cards-4">
                 <div class="card">
@@ -66,7 +66,7 @@
                 </div>
             </section>
 
-            <br><br><br><hr><br><br><br>
+            <br><br><br> <hr> <br><br><br>
 
             <section class="castle">
                 <div class="castle-img">
@@ -83,7 +83,7 @@
                 </div>
             </section>
 
-            <br><br><br><hr><br><br><br>
+            <br><br><br> <hr> <br><br><br>
 
             <section class="cards-2">
                 <div class="card">
@@ -100,9 +100,19 @@
                 </div>
             </section>
 
-            <br><br><br><hr>
+            <br><br><br> <hr> <br><br><br>
 
-        <br><br>
+            <section class="quote">
+                <p class="quote-text">
+                    “Every page turned is another world discovered.”
+                </p>
+
+                <p class="quote-author">
+                    — MawBooks
+                </p>
+            </section>
+
+            <br>
 
         </main>
 
@@ -111,8 +121,15 @@
                 <img src="assets/favicon-color.png" height=64px width=64px>
                 <h2 style="color: #F6F3EF;">MawBooks</h2>
             </div>
+            <div class="footer-middle">
+                <h3>Quick Links</h3>
+                <a>Home</a>
+                <a>About Us</a>
+                <a>Browse</a>
+                <a>Login</a>
+            </div>
             <div class="footer-right">
-                <p style="color: #F6F3EF;">&copy; Copyright 2026 MawBooks. All Rights Reserved.</p>
+                <p style="color: #F6F3EF;">&copy; Copyright 2026 MawBooks.<br>All Rights Reserved.</p>
             </div>
         </footer>
     </body>
