@@ -39,7 +39,7 @@
 
             <hr><br><br><br>
 
-            <section class="cards">
+            <section class="cards-4">
                 <div class="card">
                     <h1 style="text-align: center;">Discover</h1>
                     <p class="info">
@@ -85,7 +85,7 @@
 
             <br><br><br><hr><br><br><br>
 
-            <section class="cards">
+            <section class="cards-2">
                 <div class="card">
                     <h1 style="text-align: center;">For Readers</h1>
                     <p class="info">
