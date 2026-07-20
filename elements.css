@@ -83,7 +83,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 3rem;
+    /* gap: 3rem; */
     margin: 0;
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .castle-img {
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
     /* padding-top: 2rem; */
     flex: 1;
     margin: 0;
