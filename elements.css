@@ -40,6 +40,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -236,4 +240,37 @@ footer {
 .footer-middle {
     display: flex;
     flex-direction: column;
+}
+
+.back-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    width: 60px;
+    aspect-ratio: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--accent);
+    border: 2px solid black;
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.back-top:hover {
+    transform: translateY(-4px);
+    background-color: var(--primary-hover);
+}
+
+.back-top img {
+    width: 28px;
+    height: 28px;
 }

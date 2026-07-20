@@ -25,7 +25,7 @@
         </header>
 
         <main>
-            <section class="hero">
+            <section class="hero" id="top">
                 <div class="hero-text">
                     <h1>Reading Brings Out Latent Imagination...</h1>
                     <div style="align-self: flex-end;">
@@ -113,7 +113,6 @@
             </section>
 
             <br>
-
         </main>
 
         <footer>
@@ -121,16 +120,13 @@
                 <img src="assets/favicon-color.png" height=64px width=64px>
                 <h2 style="color: #F6F3EF;">MawBooks</h2>
             </div>
-            <div class="footer-middle">
-                <h3>Quick Links</h3>
-                <a>Home</a>
-                <a>About Us</a>
-                <a>Browse</a>
-                <a>Login</a>
-            </div>
             <div class="footer-right">
-                <p style="color: #F6F3EF;">&copy; Copyright 2026 MawBooks.<br>All Rights Reserved.</p>
+                <p style="color: #F6F3EF;">&copy; Copyright 2026 MawBooks. All Rights Reserved.</p>
             </div>
         </footer>
+
+        <a href="#top" class="back-top">
+            <img src="assets/favicon-color.png" alt="Back to Top">
+        </a>
     </body>
 </html>
