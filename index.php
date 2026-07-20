@@ -26,27 +26,73 @@
 
         <main>
             <section class="hero">
-                <div class="hero-left">
+                <div class="hero-text">
                     <h1>Reading Brings Out Latent Imagination...</h1>
                     <div style="align-self: flex-end;">
                         <button class="hero-button">Start Your Journey</button>
                     </div>
                 </div>
-                <div class="hero-right">
-                    <img src="assets/image.png">
+                <div class="hero-img">
+                    <img src="assets/hero-book.png">
                 </div>
             </section>
 
             <hr><br><br><br>
 
-            <section class="forrers">
-                <div class="for-readers">
+            <section class="cards">
+                <div class="card">
+                    <h1 style="text-align: center;">Discover</h1>
+                    <p class="info">
+                        Discover thousands of stories across every genre, from timeless classics to hidden gems written by passionate independent authors waiting to be explored.
+                    </p>
+                </div>
+                <div class="card">
+                    <h1 style="text-align: center;">Publish</h1>
+                    <p class="info">
+                        Share your stories with readers around the world through a simple publishing process designed to help writers focus on creativity, not complexity.
+                    </p>
+                </div>
+                <div class="card">
+                    <h1 style="text-align: center;">Connect</h1>
+                    <p class="info">
+                        Join a growing community where readers discover new favorites, writers receive valuable feedback, and meaningful connections are built through storytelling.
+                    </p>
+                </div>
+                <div class="card">
+                    <h1 style="text-align: center;">Inspire</h1>
+                    <p class="info">
+                        Every story has the power to spark imagination, create lasting memories, and inspire readers to see the world from a new perspective.
+                    </p>
+                </div>
+            </section>
+
+            <br><br><br><hr><br><br><br>
+
+            <section class="castle">
+                <div class="castle-img">
+                    <img src="assets/book-castle.png">
+                </div>
+                <div class="castle-text">
+                    <h1>Unlock Worlds Beyond the Page</h1>
+                    <p class="info">
+                        Every book opens a new world waiting to be explored. Discover unique stories from independent writers and immerse yourself in adventures that inspire, entertain, and stay with you long after the final chapter. Whether you're seeking your next favorite novel or sharing your own masterpiece, MawBooks is where imagination comes to life.
+                    </p>
+                    <div style="align-self: flex-end;">
+                        <button class="hero-button">Browse Books</button>
+                    </div>
+                </div>
+            </section>
+
+            <br><br><br><hr><br><br><br>
+
+            <section class="cards">
+                <div class="card">
                     <h1 style="text-align: center;">For Readers</h1>
                     <p class="info">
                         Discover stories that spark your imagination. Browse novels across every genre, save your favorites, and enjoy reading anytime, anywhere. Whether you're searching for your next adventure or a hidden gem, MawBooks brings great stories to your fingertips.
                     </p>
                 </div>
-                <div class="for-writers">
+                <div class="card">
                     <h1 style="text-align: center;">For Writers</h1>
                     <p class="info">
                         Every great story deserves an audience. Publish your work, connect with readers, and watch your creativity come to life on a platform designed to help writers thrive. Track your growth, receive feedback, and inspire readers from around the world with every chapter you share.

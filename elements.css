@@ -79,7 +79,15 @@ body {
     margin: 0;
 }
 
-.hero-left {
+.castle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    margin: 0;
+}
+
+.hero-text {
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -89,8 +97,24 @@ body {
     line-height: 1.4;
 }
 
-.hero-left h1 {
+.castle-text {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+    flex: 1.2;
+    line-height: 1.4;
+}
+
+.hero-text h1 {
     font-size: clamp(3.5rem, 8vw, 6.5rem);
+    font-weight: 1000;
+    margin: 0;
+}
+
+.castle-text h1 {
+    font-size: clamp(1rem, 3vw, 3rem);
     font-weight: 1000;
     margin: 0;
 }
@@ -100,18 +124,35 @@ body {
     margin: 0;
 }
 
-.hero-right {
+.castle-button {
+    align-self: flex-end;
+    margin: 0;
+}
+
+.hero-img {
     padding-right: 2rem;
     padding-top: 2rem;
     flex: 1;
 }
 
-.hero-right img {
+.castle-img {
+    padding-right: 1rem;
+    /* padding-top: 2rem; */
+    flex: 1;
+    margin: 0;
+}
+
+.hero-img img {
     width: min(600px, 100%);
     height: auto;
 }
 
-.forrers {
+.castle-img img {
+    width: min(600px, 100%);
+    height: auto;
+}
+
+.cards {
     margin: 0 10% auto;
     background-color: #decfbb;
 
@@ -126,7 +167,7 @@ body {
     border-radius: 8px;
 }
 
-.for-readers, .for-writers {
+.card {
     padding: 20px 40px;
     background-color: #F6F3EF;
 
