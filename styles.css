@@ -1,5 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
 #top {
     scroll-margin-top: 100px;
+}
+
+@font-face {
+    font-family: "Matcha Mint";
+    src: url("assets/Matcha Mint.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-left h1,
+.footer-left h2 {
+    font-family: "Matcha Mint", serif;
+    font-weight: 400;
 }
 
 a.bg-button,
@@ -13,6 +28,7 @@ a.castle-button {
     color: inherit;
     border: 2px solid black;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 h1, h2, h3 {
