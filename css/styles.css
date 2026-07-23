@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Matcha Mint";
-    src: url("assets/Matcha Mint.ttf") format("truetype");
+    src: url("../assets/Matcha Mint.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
