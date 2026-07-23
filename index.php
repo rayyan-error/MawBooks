@@ -16,10 +16,10 @@
                     <h1>MawBooks</h1>
                 </div>
                 <div class="nav-right">
-                    <button class="nobg-button">Home</button>
-                    <button class="nobg-button">Genre</button>
-                    <button class="nobg-button">Random</button>
-                    <button class="bg-button">Login</button>
+                    <a class="nobg-button" href="index.php">Home</a>
+                    <a class="nobg-button" href="index.php">Genre</a>
+                    <a class="nobg-button" href="index.php">Random</a>
+                    <a class="bg-button" href="login.php">Login</a>
                 </div>
             </nav>
         </header>
@@ -29,7 +29,7 @@
                 <div class="hero-text">
                     <h1>Reading Brings Out Latent Imagination...</h1>
                     <div style="align-self: flex-end;">
-                        <button class="hero-button">Start Your Journey</button>
+                        <a class="hero-button" href="login.php">Start Your Journey</a>
                     </div>
                 </div>
                 <div class="hero-img">
@@ -78,7 +78,7 @@
                         Every book opens a new world waiting to be explored. Discover unique stories from independent writers and immerse yourself in adventures that inspire, entertain, and stay with you long after the final chapter. Whether you're seeking your next favorite novel or sharing your own masterpiece, MawBooks is where imagination comes to life.
                     </p>
                     <div style="align-self: flex-end;">
-                        <button class="hero-button">Browse Books</button>
+                        <a class="hero-button" href="index.php">Browse Books</a>
                     </div>
                 </div>
             </section>
