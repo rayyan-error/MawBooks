@@ -224,6 +224,9 @@ footer {
     padding: 10px;
 
     background-color: var(--footer);
+
+    position: fixed;
+    bottom: 0;
 }
 
 .footer-left {
