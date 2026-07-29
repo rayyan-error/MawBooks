@@ -49,6 +49,8 @@
             </div>
         </main>
 
+        <br><br><br>
+
         <footer>
             <div class="footer-left">
                 <img src="../assets/favicon-color.png" height="64" width="64" alt="MawBooks logo">
