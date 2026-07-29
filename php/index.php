@@ -5,8 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MawBooks | Publish Your Own E-Books</title>
         <link rel="icon" type="image/svg" href="../assets/favicon.svg">
-        <link rel="stylesheet" href="../css/elements.css?v=<?php echo filemtime('../css/elements.css'); ?>">
-        <link rel="stylesheet" href="../css/styles.css?v=<?php echo filemtime('../css/styles.css'); ?>">
+        <link 
+            rel="stylesheet"
+            href="../css/elements.css?v=<?php echo filemtime('../css/elements.css'); ?>"
+        />
+        <link 
+            rel="stylesheet" 
+            href="../css/styles.css?v=<?php echo filemtime('../css/styles.css'); ?>"
+        />
     </head>
     <body>
         <header>

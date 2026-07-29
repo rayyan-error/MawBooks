@@ -5,8 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MawBooks | Login</title>
         <link rel="icon" type="image/svg" href="../assets/favicon.svg">
-        <link rel="stylesheet" href="../css/elements.css?v=<?php echo filemtime('../css/elements.css'); ?>">
-        <link rel="stylesheet" href="../css/styles.css?v=<?php echo filemtime('../css/styles.css'); ?>">
+        <link 
+            rel="stylesheet" 
+            href="../css/elements.css?v=<?php echo filemtime('../css/elements.css'); ?>"
+        />
+        <link 
+            rel="stylesheet" 
+            href="../css/styles.css?v=<?php echo filemtime('../css/styles.css'); ?>"
+        />
+        <link
+            rel="stylesheet"
+            href="../css/form.css?v=<?php echo filemtime('../css/form.css'); ?>"
+        />
     </head>
     <body>
         <header>
@@ -25,10 +35,18 @@
         </header>
 
         <main id="top">
-            <section class="quote">
-                <p class="quote-text">Login to continue your reading journey.</p>
-                <p class="quote-author">Access your MawBooks account</p>
-            </section>
+            <div class="subhead">
+                <section class="quote">
+                    <p class="quote-text">Login to continue your reading journey.</p>
+                    <p class="quote-author">Access your MawBooks account</p>
+                </section>
+            </div>
+
+            <div class="login-form">
+                <div class="form-content">
+                    <h1> SAY WALLAHI BRO</h1>
+                </div>
+            </div>
         </main>
 
         <footer>
