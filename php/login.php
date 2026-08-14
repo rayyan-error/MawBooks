@@ -44,7 +44,16 @@
 
             <div class="login-form">
                 <div class="form-content">
-                    <h1> SAY WALLAHI BRO</h1>
+                    <h1>Login</h1>
+                    <form action="#" method="post">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" autocomplete="current-password" required>
+
+                        <button class="bg-button" type="submit">Login</button>
+                    </form>
                 </div>
             </div>
         </main>
