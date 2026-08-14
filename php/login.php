@@ -3,7 +3,7 @@
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $email = $_POST["email"];
-    $password = $_POST["password"];
+    $password = $_POST["password"]; 
 
     $data = [
         "email" => $email,
@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <input type="email" id="email" name="email" autocomplete="email" required>
 
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password" autocomplete="current-password" required>
+                        <input type="password" id="password" name="password" required>
 
                         <button class="bg-button" type="submit">Login</button>
                     </form>
