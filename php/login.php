@@ -1,3 +1,22 @@
+<?php
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+
+    $data = [
+        "email" => $email,
+        "password" => $password
+    ];
+
+    file_put_contents(
+        "../json/login.json",
+        json_encode($data, JSON_PRETTY_PRINT)
+    );
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
