@@ -2,12 +2,16 @@
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
+    $name = $_POST["name"];
     $email = $_POST["email"];
     $password = $_POST["password"]; 
+    $gender = $_POST["gender"];
 
     $data = [
+        "name" => $name,
         "email" => $email,
-        "password" => $password
+        "password" => $password,
+        "gender" => $gender
     ];
 
     file_put_contents(
@@ -64,12 +68,27 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <div class="login-form">
                 <div class="form-content">
                     <h1>Login</h1>
-                    <form action="#" method="post">
+                    <form action="#" method="post" novalidate>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name">
+
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" autocomplete="email" required>
+                        <input type="email" id="email" name="email" autocomplete="email">
 
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password" required>
+                        <input type="password" id="password" name="password">
+
+                        <fieldset>
+                            <legend>Gender</legend>
+                            <label>
+                                <input type="radio" name="gender" value="male">
+                                Male
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="female">
+                                Female
+                            </label>
+                        </fieldset>
 
                         <button class="bg-button" type="submit">Login</button>
                     </form>
@@ -92,5 +111,32 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <a href="#top" class="back-top">
             <img src="../assets/favicon-color.png" alt="Back to Top">
         </a>
+
+        <script>
+            document.querySelector(".form-content form").addEventListener("submit", function (event) {
+                const name = document.getElementById("name");
+                const email = document.getElementById("email");
+                const password = document.getElementById("password");
+                const gender = document.querySelector("input[name='gender']:checked");
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (name.value.trim() === "") {
+                    event.preventDefault();
+                    alert("Please enter your name.");
+                    name.focus();
+                } else if (!emailPattern.test(email.value.trim())) {
+                    event.preventDefault();
+                    alert("Please enter a valid email address.");
+                    email.focus();
+                } else if (password.value.length < 6) {
+                    event.preventDefault();
+                    alert("Password must be at least 6 characters long.");
+                    password.focus();
+                } else if (!gender) {
+                    event.preventDefault();
+                    alert("Please select male or female.");
+                }
+            });
+        </script>
     </body>
 </html>
